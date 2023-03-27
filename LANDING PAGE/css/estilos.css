@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
@@ -35,13 +36,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url("../images/copa.jpg");
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/copa.jpg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
 
 
+/* Nav */
 
 .nav {
     --padding-container: 0;
@@ -89,6 +91,7 @@ body {
 }
 
 
+/* Hero container */
 
 .hero__container {
     max-width: 800px;
@@ -119,6 +122,7 @@ body {
     border-radius: 32px;
 }
 
+/* About */
 
 .about {
     text-align: center;
@@ -262,6 +266,7 @@ body {
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
 
+/* Testimony */
 
 .testimony{
     background-color: #e5e5f7;
@@ -317,6 +322,7 @@ body {
     cursor: pointer;
 }
 
+/* Questions */
 
 .questions{
     text-align: center;
@@ -388,6 +394,7 @@ body {
     margin-bottom: 30px;
 }
 
+/* Footer */
 
 .footer{
     background-color: #1D293F;
@@ -400,7 +407,7 @@ body {
 }
 
 .footer__title, .footer__newsletter{
-    color: #1D293F;
+    color: #fff;
 }
 
 
@@ -476,6 +483,7 @@ body {
     width: 30px;
 }
 
+/* Media queries */
 
 @media (max-width:800px){
     .nav__menu{
